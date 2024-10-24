@@ -1,0 +1,131 @@
+
+.header-image {
+    background-image: url('/img/header_frosting.png');
+    height: 600px; 
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: block;
+}
+header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 120px;
+    font-family: 'Brush Script MT', cursive;
+    color: #FEA1E7;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-top: -225px;
+    margin-bottom: 15px;
+
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: "";
+    padding: 15px;
+}
+
+
+.topnav a {
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Brush Script MT', cursive;
+    border-radius: 50px;
+    background-color: #D076BB;
+    margin-right: 30px;
+  }
+
+  .topnav a:last-child {
+    margin-right: 0;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #AA7CD9;
+    color: white;
+  }
+  
+  
+  .topnav a.active {
+    background-color: #686ECB;
+    color: white;
+  }
+
+
+.hero-image {
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 60px;
+     
+}
+
+.hero-image img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    text-shadow: 2px 2px 4px rgba (0, 0, 0, 0.7);
+    padding: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: content-box;
+}
+
+.overlay-text p {
+    font-size: 60px;          
+    font-family: 'Brush Script MT', cursive; 
+    font-weight: 900;
+    margin: 0;                 
+    line-height: 1.5;          
+    text-align: center;        
+}
+
+.bottomnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: "";
+    padding: 15px;
+}
+
+.bottomnav a {
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Brush Script MT', cursive;
+    border-radius: 50px;
+    background-color: #D076BB;
+    margin-right: 30px;
+  }
+
+  .bottomnav a:last-child {
+    margin-right: 0;
+  }
+  
+  
+  .bottomnav a:hover {
+    background-color: white;
+    color: #D076BB;
+  }
+  
