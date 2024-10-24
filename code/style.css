@@ -16,7 +16,7 @@ header {
 
 header h1 {
     font-size: 120px;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Comic Sans MS', Comic;
     color: #FEA1E7;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -41,7 +41,7 @@ header h1 {
     padding: 14px 30px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Comic Sans Ms', Comic;
     border-radius: 50px;
     background-color: #D076BB;
     margin-right: 30px;
@@ -76,13 +76,16 @@ header h1 {
     height: auto;
 }
 
-.overlay-text {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* .overlay-text { *//*
+    margin: auto;
+    p
+    top: 300px;
     
-    color: white;
+   
+    padding: 100px;
+    /*transform: translate(-50%, -50%);*/
+    
+    /*color: white;
     text-shadow: 2px 2px 4px rgba (0, 0, 0, 0.7);
     padding: 10px;
     max-width: 600px;
@@ -90,14 +93,14 @@ header h1 {
     box-sizing: content-box;
 }
 
-.overlay-text p {
-    font-size: 60px;          
-    font-family: 'Brush Script MT', cursive; 
+/*.overlay-text p { 
+    font-size: 5vw;          
+    font-family: 'Comic Sans Ms', Comic; 
     font-weight: 900;
     margin: 0;                 
     line-height: 1.5;          
     text-align: center;        
-}
+}*/
 
 .bottomnav {
     display: flex;
@@ -113,7 +116,7 @@ header h1 {
     padding: 14px 30px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Comic Sans Ms', Comic;
     border-radius: 50px;
     background-color: #D076BB;
     margin-right: 30px;
